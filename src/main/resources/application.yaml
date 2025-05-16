@@ -1,3 +1,7 @@
 spring:
   application:
     name: management
+  datasource:
+    url: jdbc:mysql://localhost/management?createDatabaseIfNotExist=true
+    username: root
+    password: admin
